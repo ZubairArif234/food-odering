@@ -1,0 +1,198 @@
+body{
+    /* background-image: url("assets/book.avif"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: radial-gradient(circle, rgba(0,180,219,1) 18%, rgba(6,130,189,1) 43%, rgba(12,82,161,1) 68%);
+    /* background-color: aqua; */
+    
+}
+.login{
+   /* background-color: azure; */
+   width: 50%;
+   margin: auto;
+}
+.loginitem{
+   /* margin-top: 10px; */
+   padding: auto;
+   margin: auto;
+   /* background-color: aqua; */
+   width: 90%;
+}
+.loginH{
+   /* background-color: aqua; */
+   border-bottom: 2px solid white;
+   color: white;
+   font-size: 30px;
+   padding-top: 30%;
+   text-align: center;
+   font-family: cursive;
+}
+.loginForm{
+   width: 90%;
+   margin: auto;
+   /* background-color: blue; */
+}
+
+.loginInput{
+  color: white;
+   width: 90%;
+   margin: 10px;
+   padding: 10px;
+   background-color: transparent;
+   outline: none;
+   border: none;
+   font-family: cursive;
+   border-bottom: 3px solid white;
+   font-size: 20px;
+   
+}
+.lableLogin{
+   font-weight: bolder;
+   
+   color: white;
+   letter-spacing: 2px;
+   font-size: 25px;
+   font-family: cursive;
+}
+.loginBtn{
+   /* color: blue; */
+   color: white;
+   background-color: #13256d;
+   margin-top: 20px;
+   font-size: 20px;
+   /* font-family: cursive; */
+   width: 80%;
+   padding: 10px;
+   border-radius: 20px;
+   border: none;
+   /* border: 5px double white; */
+   
+}
+.imgprof{
+   margin-top: 20px;
+   color: white;
+   background-color: #13256d;
+   font-size: 20px;
+   font-family: cursive;
+   border-radius: 20px;
+   padding-left: 8px;
+   padding-right: 8px;
+   padding-bottom: 5px;
+   padding-top: 5px;
+   cursor: pointer;
+}
+.loginP{
+   font-size: 18px;
+   color: white;
+   /* background-color: aqua; */
+   /* margin-top: 50px; */
+}
+.loginP a {
+   color: #13256d;
+   font-size: 20px;
+   font-weight: bolder;
+}
+.radio {
+   margin-left: 20px;
+   height: 20px;
+   display: inline;
+   width: 20px;
+}
+.radioP{
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+}
+#file{
+   display: none;
+}
+#registerForm{
+   display: none;
+}
+.drop{
+    color: gray !important;
+}
+
+.password-container{
+   /* width: 400px; */
+   position: relative;
+ }
+ .password-container input[type="password"],
+ .password-container input[type="text"]{
+   width: 93.5%;
+   padding: 12px 36px 12px 12px;
+   box-sizing: border-box;
+ }
+ .fa-eye{
+   position: absolute;
+   top: 28%;
+   right: 4%;
+   cursor: pointer;
+   color: lightgray;
+ }
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+   .login{
+       
+       width: 90%;
+       margin: auto;
+   }
+   .loginitem{
+       padding: auto;
+       margin: auto;
+       
+       width: 90%;
+   }
+   .loginH{
+       font-size: 30px;
+       padding-top: 50%;
+       text-align: center;
+   }
+   .loginInput{
+       width: 80%;
+   margin: 10px;
+   padding: 5px;
+   
+       
+   }
+   .loginP{
+       font-size: 18px;
+       color: white;
+       /* background-color: aqua; */
+       margin-top: 75%;
+   }
+
+   .password-container{
+      /* width: 400px; */
+      position: relative;
+    }
+    .password-container input[type="password"],
+    .password-container input[type="text"]{
+      width: 84%;
+      padding: 12px 36px 12px 12px;
+      box-sizing: border-box;
+    }
+    .fa-eye{
+      position: absolute;
+      top: 28%;
+      right: 10%;
+      cursor: pointer;
+      color: lightgray;
+    }
+
+
+
+
+
+}

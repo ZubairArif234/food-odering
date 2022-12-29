@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main" id="mainid">
+        <!-- <center> -->
+        <div class="login" id="loginForm">
+            <div class="loginitem">
+                <h1 class="loginH">LOGIN</h1>
+
+                <form action="" class="loginForm">
+                    <label for="" class="lableLogin">Email</label>
+                    <br />
+                    <input type="email" class="loginInput" id="loginEmail"  placeholder="Enter email">
+                    <br />
+
+                    <label for="" class="lableLogin">Password</label>
+                    <br />
+                    <!-- <input type="password" class="loginInput" id="loginPass"  placeholder="Enter password"> -->
+                    <!-- <i class="fa-solid fa-eye" id="eye"></i> -->
+                    <div class="password-container">
+                        <input type="password" placeholder="Password..."class="loginInput" id="loginPass" >
+                        <i class="fa-solid fa-eye" id="eye"></i>
+                   </div>
+                    <br />
+                    <center>
+                        <button class="loginBtn" id="loginBUTTON">LOGIN</button>
+                        <br />
+
+
+                        <p class="loginP">Don,t have an account ? <a href="" id="registerLink">Create account</a></p>
+                    </center>
+                </form>
+            </div>
+        </div>
+        <!-- </center> -->
+        <div class="login" id="registerForm">
+            <div class="loginitem">
+                <h1 class="loginH">Create account</h1>
+
+
+                <form action="" class="loginForm">
+                    <label for="" class="lableLogin">Name / Company Name</label>
+                    <input type="text" id="registerName" class="loginInput"  placeholder="Enter your Name or Company Name">
+
+                    <label for="" class="lableLogin">Email</label>
+                    <input type="email" class="loginInput" id="registerEmail"  placeholder="Enter Email">
+
+                    <label for="" class="lableLogin">Phone no</label>
+                    <input type="number" id="registerPhone" class="loginInput"  placeholder="Enter Phone ">
+                    
+                    
+                    <label for="" class="lableLogin">Registerd as :</label>
+                    <select class="loginInput" name="" id="select">
+                        <option  class="loginInput drop"value="" aria-readonly="true">Select</option>
+                        <option class="loginInput drop" value="restaurants">Restaurants </option>
+                        <option class="loginInput drop" value="customer">customer </option>
+                    </select>
+
+                    <label for="" class="lableLogin">Password</label>
+                    <!-- <input type="password" id="registerPassword" class="loginInput" pattern=".{8,}"  placeholder="Enter password"> -->
+                    <div class="password-container">
+                        <input type="password" placeholder="Password..."class="loginInput" pattern=".{8,}" id="registerPassword" >
+                        <i class="fa-solid fa-eye" id="eye2"></i>
+                   </div>
+                    <br />
+
+                    <input type="file" id="file" accept="image/*" class="loginInput" name="imagefile" >
+                    <label for="file" class="imgprof" name="imagefile" > Upload image</label>
+                    
+                    <center>
+                        <!-- <br /> -->
+                        <button onblur="" class="loginBtn" id="signBUTTON">Create account</button>
+
+                        <p class="loginP">Already have an account ? <a href="" id="liginLink">Login</a></p>
+                    </center>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+<script src="app.js" type="module"></script>
+<!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</html>
