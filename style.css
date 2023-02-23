@@ -2,7 +2,7 @@ body{
     /* background-image: url("assets/book.avif"); */
     background-size: cover;
     background-repeat: no-repeat;
-    background: radial-gradient(circle, rgba(0,180,219,1) 18%, rgba(6,130,189,1) 43%, rgba(12,82,161,1) 68%);
+    background: radial-gradient(circle, rgba(0,89,219,1) 12%, rgba(11,32,164,1) 54%, rgba(52,6,189,1) 87%);
     /* background-color: aqua; */
     
 }
@@ -57,7 +57,7 @@ body{
 .loginBtn{
    /* color: blue; */
    color: white;
-   background-color: #13256d;
+   background-color: #071344;
    margin-top: 20px;
    font-size: 20px;
    /* font-family: cursive; */
@@ -88,7 +88,7 @@ body{
    /* margin-top: 50px; */
 }
 .loginP a {
-   color: #13256d;
+   color: #95a7f1;
    font-size: 20px;
    font-weight: bolder;
 }
